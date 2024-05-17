@@ -4,31 +4,50 @@ using UnityEngine;
 
 public class Food : MonoBehaviour
 {
-    public BoxCollider2D gridArea;
+    public Collider2D gridArea;
+
+    private Snake snake;
+
+    private void Awake()
+    {
+        snake = FindObjectOfType<Snake>();
+    }
 
     private void Start()
     {
-        RandomPosition();
+        RandomizePosition();
     }
-    private void RandomPosition()
+
+    public void RandomizePosition()
     {
         Bounds bounds = gridArea.bounds;
 
-        float x = Random.Range(bounds.min.x, bounds.max.x);
-        float y = Random.Range(bounds.min.y, bounds.max.y);
+        // Pick a random position inside the bounds.
+        int x = Mathf.RoundToInt(Random.Range(bounds.min.x, bounds.max.x));
+        int y = Mathf.RoundToInt(Random.Range(bounds.min.y, bounds.max.y));
 
-        transform.position = new Vector3(Mathf.RoundToInt(x), Mathf.RoundToInt(y), 0.0f);
+        // Prevent the food from spawning on the snake
+        while (snake.Occupies(x, y))
+        {
+            x++;
+
+            if (x > bounds.max.x)
+            {
+                x = Mathf.RoundToInt(bounds.min.x);
+                y++;
+
+                if (y > bounds.max.y)
+                {
+                    y = Mathf.RoundToInt(bounds.min.y);
+                }
+            }
+        }
+
+        transform.position = new Vector2(x, y);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.gameObject.tag == "Player")
-        {
-            RandomPosition();
-        }
-        else if (collision.gameObject.tag != "Player")
-        {
-            RandomPosition();
-        }
+        RandomizePosition();
     }
 }
