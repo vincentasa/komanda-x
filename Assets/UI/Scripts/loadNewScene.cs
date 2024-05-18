@@ -5,9 +5,7 @@ using UnityEngine;
 
 public class loadNewScene : MonoBehaviour
 {
-    public string sceneName;
-
-    public void OnMouseDown()
+    public void OnMouseDown(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
     }
