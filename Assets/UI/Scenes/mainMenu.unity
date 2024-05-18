@@ -748,6 +748,7 @@ GameObject:
   - component: {fileID: 678068282}
   - component: {fileID: 678068281}
   - component: {fileID: 678068280}
+  - component: {fileID: 678068283}
   m_Layer: 5
   m_Name: creditsButton
   m_TagString: Untagged
@@ -819,9 +820,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: ee03129dede9bdf4fbd2d60e10cffc36, type: 3}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: set_name
+      - m_Target: {fileID: 678068283}
+        m_TargetAssemblyTypeName: loadNewScene, Assembly-CSharp
+        m_MethodName: OnMouseDown
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -830,7 +831,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: creditsMenu
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
 --- !u!114 &678068281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -869,6 +870,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 678068278}
   m_CullTransparentMesh: 1
+--- !u!114 &678068283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678068278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee03129dede9bdf4fbd2d60e10cffc36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &921250196
 GameObject:
   m_ObjectHideFlags: 0
@@ -881,6 +894,7 @@ GameObject:
   - component: {fileID: 921250200}
   - component: {fileID: 921250199}
   - component: {fileID: 921250198}
+  - component: {fileID: 921250201}
   m_Layer: 5
   m_Name: settingsButton
   m_TagString: Untagged
@@ -951,7 +965,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 921250199}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 921250201}
+        m_TargetAssemblyTypeName: loadNewScene, Assembly-CSharp
+        m_MethodName: OnMouseDown
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: settingsMenu
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &921250199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -990,6 +1016,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921250196}
   m_CullTransparentMesh: 1
+--- !u!114 &921250201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921250196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee03129dede9bdf4fbd2d60e10cffc36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1116455608
 GameObject:
   m_ObjectHideFlags: 0
@@ -1430,7 +1468,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -391.44107, y: 0.37017632, z: -383.3272, w: -304.96268}
+  m_margin: {x: -391.44107, y: 0.37017632, z: -383.3272, w: -94.17781}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
