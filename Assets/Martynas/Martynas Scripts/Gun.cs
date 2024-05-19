@@ -7,7 +7,7 @@ public class Gun : MonoBehaviour
     private Camera mainCam;
     private Vector3 mousePos;
     public GameObject bullet;
-    public Transform bulletTransform;
+    public Transform gunTransform;
     public bool canFire;
     private float timer;
     public float fireRate;
@@ -39,7 +39,7 @@ public class Gun : MonoBehaviour
         if (Input.GetMouseButton(0) && canFire)
         {
             canFire = false;
-            Instantiate(bullet, bulletTransform.position, bulletTransform.rotation);
+            Instantiate(bullet, gunTransform.position, gunTransform.rotation);
         }
     }
 }

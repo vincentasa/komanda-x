@@ -9,10 +9,10 @@ public class Food : MonoBehaviour
 
     private Snake snake;
 
-    public float spawnRate = 3f;
+    private float spawnRate;
     public float originalSpawnRate = 3f;
 
-    public GameObject foodPrefab;
+    public GameObject[] foodPrefabs;
     
 
     private void Awake()
@@ -29,6 +29,8 @@ public class Food : MonoBehaviour
     public void RandomizePosition()
     {
         Bounds bounds = gridArea.bounds;
+        var index = Random.Range(0, foodPrefabs.Length);
+
 
         // Pick a random position inside the bounds.
         int x = Mathf.RoundToInt(Random.Range(bounds.min.x, bounds.max.x));
@@ -51,7 +53,7 @@ public class Food : MonoBehaviour
             }
         }
 
-        Instantiate(foodPrefab, new Vector2(x, y), Quaternion.identity);
+        Instantiate(foodPrefabs[index], new Vector2(x, y), Quaternion.identity);
     }
     private async void Update()
     {
