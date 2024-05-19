@@ -48,5 +48,6 @@ public class settingsMenu : MonoBehaviour
         LinearMixerVolume,
         LogrithmicMixerVolume
     }
+
 }
 
