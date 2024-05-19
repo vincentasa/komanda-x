@@ -376,6 +376,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &664864428 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8852398103313823194, guid: db0e8e4fd14b54c4b85558b0c4052a25, type: 3}
+  m_PrefabInstance: {fileID: 4090164323433516776}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &664864434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664864428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6c63d4862df6b444b57cbe74be20cee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  segmentPrefab: {fileID: 2635487224815275537, guid: c641ccdeef487ce4aa4811a2f23cd492, type: 3}
+  direction: {x: 1, y: 0}
+  speed: 5
+  initialSize: 4
+  speedMultiplier: 1
+  checkpoint: {fileID: 231446189}
 --- !u!1 &753270635
 GameObject:
   m_ObjectHideFlags: 0
@@ -830,10 +853,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SnakeHead
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4044099213609698258, guid: db0e8e4fd14b54c4b85558b0c4052a25, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8852398103313823194, guid: db0e8e4fd14b54c4b85558b0c4052a25, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 664864434}
   m_SourcePrefab: {fileID: 100100000, guid: db0e8e4fd14b54c4b85558b0c4052a25, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
