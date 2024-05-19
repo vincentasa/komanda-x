@@ -146,14 +146,11 @@ public class Snake : MonoBehaviour
         if (other.gameObject.CompareTag("Food"))
         {
             Grow();
+            Destroy(other.gameObject);
         }
         else if (other.gameObject.CompareTag("Obstacle"))
         {
             ResetState();
         }
-        //else if (other.gameObject.CompareTag("Wall"))
-        //{
-        //    ResetState();
-        //}
     }
 }

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Food : MonoBehaviour
@@ -7,6 +8,12 @@ public class Food : MonoBehaviour
     public Collider2D gridArea;
 
     private Snake snake;
+
+    public float spawnRate = 3f;
+    public float originalSpawnRate = 3f;
+
+    public GameObject foodPrefab;
+    
 
     private void Awake()
     {
@@ -16,6 +23,7 @@ public class Food : MonoBehaviour
     private void Start()
     {
         RandomizePosition();
+        spawnRate = originalSpawnRate;
     }
 
     public void RandomizePosition()
@@ -43,11 +51,23 @@ public class Food : MonoBehaviour
             }
         }
 
-        transform.position = new Vector2(x, y);
+        Instantiate(foodPrefab, new Vector2(x, y), Quaternion.identity);
+    }
+    private async void Update()
+    {
+        spawnRate -= Time.deltaTime;
+        if (spawnRate <= 0)
+        {
+            RandomizePosition();
+            spawnRate = originalSpawnRate;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        RandomizePosition();
+        if (other.gameObject.tag == "Obstacle")
+        {
+            RandomizePosition();
+        }
     }
 }
