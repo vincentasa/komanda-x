@@ -5,12 +5,14 @@ using UnityEngine.UIElements;
 
 public class Snake : MonoBehaviour
 {
+    public Transform tailSegment;
     public Transform segmentPrefab;
     public Vector2Int direction = Vector2Int.right;
     public float speed = 20f;
-    public int initialSize = 4;
+    public int initialSize = 4; // without tail
     public float speedMultiplier = 1.0f;
     public GameObject checkpoint;
+    public float snakeSize = 0.4f;  //need to make movement without big gaps
 
     private List<Transform> segments = new List<Transform>();
     private Vector2Int input;
@@ -46,6 +48,7 @@ public class Snake : MonoBehaviour
             {
                 input = Vector2Int.left;
             }
+
         }
 
         // Rotate snake head to a direction it's moving
@@ -65,6 +68,9 @@ public class Snake : MonoBehaviour
         {
             transform.rotation = Quaternion.Euler(new Vector3(0, 0, -90));
         }
+
+        segments[segments.Count - 1].GetComponent<SpriteRenderer>().enabled = false;
+        segments[segments.Count - 2].GetComponent<SpriteRenderer>().enabled = true;
     }
 
     private void FixedUpdate()
@@ -85,12 +91,13 @@ public class Snake : MonoBehaviour
         for (int i = segments.Count - 1; i > 0; i--)
         {
             segments[i].position = segments[i - 1].position;
+            segments[i].rotation = segments[i - 1].rotation;
         }
 
         // Move the snake in the direction it is facing
         // Round the values to ensure it aligns to the grid
-        int x = Mathf.RoundToInt(transform.position.x) + direction.x;
-        int y = Mathf.RoundToInt(transform.position.y) + direction.y;
+        float x = Mathf.Round(transform.position.x) + direction.x;
+        float y = Mathf.Round(transform.position.y) + direction.y;
         transform.position = new Vector2(x, y);
 
         // Set the next update time based on the speed
@@ -131,8 +138,8 @@ public class Snake : MonoBehaviour
     {
         foreach (Transform segment in segments)
         {
-            if (Mathf.RoundToInt(segment.position.x) == x &&
-                Mathf.RoundToInt(segment.position.y) == y)
+            if (Mathf.Round(segment.position.x) == x &&
+                Mathf.Round(segment.position.y) == y)
             {
                 return true;
             }
