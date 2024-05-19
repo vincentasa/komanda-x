@@ -8,6 +8,7 @@ public class Bullet : MonoBehaviour
     private Camera mainCam;
     private Rigidbody2D rb;
     public float speed;
+    public int damage;
 
     private void Start()
     {
@@ -16,5 +17,12 @@ public class Bullet : MonoBehaviour
         mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
         Vector3 direction = mousePos - transform.position;
         rb.velocity = new Vector2(direction.x, direction.y).normalized * speed;
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Spike")
+        {
+            other.gameObject.GetComponent<Health>().hp -= damage;
+        }
     }
 }
