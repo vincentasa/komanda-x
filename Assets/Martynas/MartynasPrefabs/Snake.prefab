@@ -102,9 +102,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6c63d4862df6b444b57cbe74be20cee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  segmentPrefab: {fileID: 8860640284268801413, guid: 0d6821cbf583ad942adc688e3effaad0, type: 3}
+  segmentPrefab: {fileID: 7878350319992209165, guid: 7ea2a5892f398534da74c210958234ce, type: 3}
   direction: {x: 1, y: 0}
-  speed: 10
+  speed: 5
   initialSize: 4
   speedMultiplier: 1
   checkpoint: {fileID: 0}
