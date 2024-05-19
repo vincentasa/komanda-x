@@ -779,6 +779,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 231446189}
     - target: {fileID: 4044099213609698258, guid: db0e8e4fd14b54c4b85558b0c4052a25, type: 3}
+      propertyPath: tailSegment
+      value: 
+      objectReference: {fileID: 174208283434351436, guid: 327d7a8d0867dc746bccbc94e8b178b6, type: 3}
+    - target: {fileID: 4044099213609698258, guid: db0e8e4fd14b54c4b85558b0c4052a25, type: 3}
       propertyPath: segmentPrefab
       value: 
       objectReference: {fileID: 2635487224815275537, guid: c641ccdeef487ce4aa4811a2f23cd492, type: 3}
