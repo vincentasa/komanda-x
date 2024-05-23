@@ -25,6 +25,7 @@ public class Snake : MonoBehaviour
 
     private void Update()
     {
+
         // Only allow turning up or down while moving in the x-axis
         if (direction.x != 0f)
         {
@@ -69,8 +70,33 @@ public class Snake : MonoBehaviour
             transform.rotation = Quaternion.Euler(new Vector3(0, 0, -90));
         }
 
-        segments[segments.Count - 1].GetComponent<SpriteRenderer>().enabled = false;
-        segments[segments.Count - 2].GetComponent<SpriteRenderer>().enabled = true;
+        if (segments[0].rotation != transform.rotation)
+        {
+            segments[segments.Count - 1].GetComponent<SegmentLooks>().Turn();
+        }
+        else
+        {
+            segments[segments.Count - 1].GetComponent<SegmentLooks>().Body();
+        }
+
+        for (int i = segments.Count - 1; i > 0; i--)
+        {
+            if (segments[i].GetComponent<Transform>().rotation != segments[i - 1].GetComponent<Transform>().rotation)
+            {
+                segments[i].GetComponent<SegmentLooks>().Turn();
+                print("Turning...");
+            }
+            else if ((segments.Count - 1) - i == 0)
+            {
+                segments[i].GetComponent<SegmentLooks>().Tail();
+            }
+            else
+            {
+                segments[i].GetComponent<SegmentLooks>().Body();
+            }
+        }
+
+        segments[segments.Count - 1].GetComponent<SegmentLooks>().Tail();
     }
 
     private void FixedUpdate()
