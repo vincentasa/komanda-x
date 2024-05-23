@@ -96,7 +96,7 @@ public class Snake : MonoBehaviour
             }
         }
 
-        segments[segments.Count - 1].GetComponent<SegmentLooks>().Tail();
+        //segments[segments.Count - 1].GetComponent<SegmentLooks>().Tail();
     }
 
     private void FixedUpdate()
