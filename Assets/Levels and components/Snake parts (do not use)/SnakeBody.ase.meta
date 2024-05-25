@@ -77,7 +77,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -90,7 +89,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -292,7 +290,6 @@ ScriptedImporter:
     cells:
     - name: SnakeBody_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -301,7 +298,6 @@ ScriptedImporter:
       spriteId: 2e7d3be9015f22b44b403f2c706564de
     - name: SnakeBody_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -310,7 +306,6 @@ ScriptedImporter:
       spriteId: 778567c40d2ec4a47b1c1e9a0edb34c1
     - name: SnakeBody_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -319,7 +314,6 @@ ScriptedImporter:
       spriteId: caa1ac93acdb6524896998fe4996f8b8
     - name: SnakeBody_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -328,7 +322,6 @@ ScriptedImporter:
       spriteId: 1c01e1bbe0881c04d8d097cfc0a81177
     - name: SnakeBody_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -337,7 +330,6 @@ ScriptedImporter:
       spriteId: ff916454833218f4f81f12c70ec3b9de
     - name: SnakeBody_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -346,7 +338,6 @@ ScriptedImporter:
       spriteId: 979a702b97b684d40b8dfaa937ad7198
     - name: SnakeBody_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -355,7 +346,6 @@ ScriptedImporter:
       spriteId: 6996977e540c8e54b90b2ca274b77253
     - name: SnakeBody_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -413,7 +403,6 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
-  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 16, y: 16}
