@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Andrius Test.unity
     guid: 0aa482b6cf58e8c4f8a5f0aa5e44ff16
+  - enabled: 1
+    path: Assets/UI/Scenes/pauseMenuTest.unity
+    guid: 77a471baa7cb2b641875a7a9fc18a918
   m_configObjects: {}
