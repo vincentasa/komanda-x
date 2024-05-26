@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 11379a69300d94441a076dde6c0eb307
+guid: e40ecb15340984b48832a722c286df28
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638517380019349535
+  platformSettingsDirtyTick: 638523392712375441
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,7 +119,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: SnakeBodyOrange_Frame_0
+  - name: SnakeBodyOrange (1)_Frame_0
     originalName: 
     pivot: {x: 0.44444445, y: 0}
     alignment: 9
@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 28
       width: 9
       height: 16
-    spriteID: a3696e65882897f4392191f28a64f77a
+    spriteID: 359e34a8e3d2f994f98e1720d3dd3787
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,7 +139,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 23, y: 28}
-  - name: SnakeBodyOrange_Frame_1
+  - name: SnakeBodyOrange (1)_Frame_1
     originalName: 
     pivot: {x: 0.4, y: 0}
     alignment: 9
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 52
       width: 10
       height: 16
-    spriteID: d302deec51e3d1a4dacdd5bb721091d0
+    spriteID: 109213d4879972747a3e51436894c754
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -159,7 +159,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 52}
-  - name: SnakeBodyOrange_Frame_2
+  - name: SnakeBodyOrange (1)_Frame_2
     originalName: 
     pivot: {x: 0.36363637, y: 0}
     alignment: 9
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 4
       width: 11
       height: 16
-    spriteID: 0886bfa4eca07c5419a2190c5143d3b0
+    spriteID: 4c30ab66808509d47b84c6f35452ea66
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -179,7 +179,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: SnakeBodyOrange_Frame_3
+  - name: SnakeBodyOrange (1)_Frame_3
     originalName: 
     pivot: {x: 0.4, y: 0}
     alignment: 9
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 76
       width: 10
       height: 16
-    spriteID: 9ad53133fc594bf46a04a83ef572a1d2
+    spriteID: 5dfc454479cb50f49bcfdfdb1055b4c9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -199,7 +199,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 76}
-  - name: SnakeBodyOrange_Frame_4
+  - name: SnakeBodyOrange (1)_Frame_4
     originalName: 
     pivot: {x: 0.44444445, y: 0}
     alignment: 9
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 52
       width: 9
       height: 16
-    spriteID: a191113d501fcd743b722c3c8dc942da
+    spriteID: 1d7001007997f994f88d543d6438cd77
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -219,7 +219,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 23, y: 52}
-  - name: SnakeBodyOrange_Frame_5
+  - name: SnakeBodyOrange (1)_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 100
       width: 10
       height: 16
-    spriteID: 5c01a7d9bf0602040b61de050cb6d482
+    spriteID: 22edb79c5dcd4ff409ef7429a4d577c5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -239,7 +239,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 100}
-  - name: SnakeBodyOrange_Frame_6
+  - name: SnakeBodyOrange (1)_Frame_6
     originalName: 
     pivot: {x: 0.54545456, y: 0}
     alignment: 9
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 28
       width: 11
       height: 16
-    spriteID: 52f73e66988be654cab4c008bc08051f
+    spriteID: b37ab628b6ae7514ebe7dea30fa88738
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -259,7 +259,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 28}
-  - name: SnakeBodyOrange_Frame_7
+  - name: SnakeBodyOrange (1)_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -270,7 +270,7 @@ ScriptedImporter:
       y: 4
       width: 10
       height: 16
-    spriteID: 9562b4f1100aaeb459fdc14fc64697d4
+    spriteID: 3e7a5228a62f1c2409f7cbe54e468fe5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -282,76 +282,76 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 675986536
-    name: SnakeBodyOrange
+    guid: -203656502
+    name: SnakeBodyOrange (1)
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: SnakeBodyOrange_Frame_0
+    - name: SnakeBodyOrange (1)_Frame_0
       frameIndex: 0
       cellRect:
         x: 4
         y: 0
         width: 9
         height: 16
-      spriteId: a3696e65882897f4392191f28a64f77a
-    - name: SnakeBodyOrange_Frame_1
+      spriteId: 359e34a8e3d2f994f98e1720d3dd3787
+    - name: SnakeBodyOrange (1)_Frame_1
       frameIndex: 1
       cellRect:
         x: 4
         y: 0
         width: 10
         height: 16
-      spriteId: d302deec51e3d1a4dacdd5bb721091d0
-    - name: SnakeBodyOrange_Frame_2
+      spriteId: 109213d4879972747a3e51436894c754
+    - name: SnakeBodyOrange (1)_Frame_2
       frameIndex: 2
       cellRect:
         x: 4
         y: 0
         width: 11
         height: 16
-      spriteId: 0886bfa4eca07c5419a2190c5143d3b0
-    - name: SnakeBodyOrange_Frame_3
+      spriteId: 4c30ab66808509d47b84c6f35452ea66
+    - name: SnakeBodyOrange (1)_Frame_3
       frameIndex: 3
       cellRect:
         x: 4
         y: 0
         width: 10
         height: 16
-      spriteId: 9ad53133fc594bf46a04a83ef572a1d2
-    - name: SnakeBodyOrange_Frame_4
+      spriteId: 5dfc454479cb50f49bcfdfdb1055b4c9
+    - name: SnakeBodyOrange (1)_Frame_4
       frameIndex: 4
       cellRect:
         x: 4
         y: 0
         width: 9
         height: 16
-      spriteId: a191113d501fcd743b722c3c8dc942da
-    - name: SnakeBodyOrange_Frame_5
+      spriteId: 1d7001007997f994f88d543d6438cd77
+    - name: SnakeBodyOrange (1)_Frame_5
       frameIndex: 5
       cellRect:
         x: 3
         y: 0
         width: 10
         height: 16
-      spriteId: 5c01a7d9bf0602040b61de050cb6d482
-    - name: SnakeBodyOrange_Frame_6
+      spriteId: 22edb79c5dcd4ff409ef7429a4d577c5
+    - name: SnakeBodyOrange (1)_Frame_6
       frameIndex: 6
       cellRect:
         x: 2
         y: 0
         width: 11
         height: 16
-      spriteId: 52f73e66988be654cab4c008bc08051f
-    - name: SnakeBodyOrange_Frame_7
+      spriteId: b37ab628b6ae7514ebe7dea30fa88738
+    - name: SnakeBodyOrange (1)_Frame_7
       frameIndex: 7
       cellRect:
         x: 3
         y: 0
         width: 10
         height: 16
-      spriteId: 9562b4f1100aaeb459fdc14fc64697d4
+      spriteId: 3e7a5228a62f1c2409f7cbe54e468fe5
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -368,18 +368,6 @@ ScriptedImporter:
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
   - name: Standalone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Server
     overridden: 0
     ignorePlatformSupport: 0
     maxTextureSize: 2048
