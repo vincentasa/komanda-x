@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
-using UnityEditor.Tilemaps;
 
 public class Snake : MonoBehaviour
 {
@@ -84,31 +83,8 @@ public class Snake : MonoBehaviour
             transform.rotation = Quaternion.Euler(new Vector3(0, 0, -90));
         }
 
-        if (segments[0].rotation != transform.rotation)
-        {
-            segments[segments.Count - 1].GetComponent<SegmentLooks>().Turn();
-        }
-        else
-        {
-            segments[segments.Count - 1].GetComponent<SegmentLooks>().Body();
-        }
-
-        for (int i = segments.Count - 1; i > 0; i--)
-        {
-            //if (rot1 != rot2)
-            //{
-            //    segments[i].GetComponent<SegmentLooks>().Turn();
-            //}
-            if ((segments.Count - 1) - i == 0)
-            {
-                segments[i].GetComponent<SegmentLooks>().Tail();
-            }
-            else
-            {
-                segments[i].GetComponent<SegmentLooks>().Body();
-            }
-        }
         segments[segments.Count - 1].GetComponent<SegmentLooks>().Tail();
+        segments[segments.Count - 2].GetComponent<SegmentLooks>().Body();
     }
     private void FixedUpdate()
     {

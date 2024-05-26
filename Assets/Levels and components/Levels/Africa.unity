@@ -1390,6 +1390,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5833151370377028305, guid: b6024a133f0b299449ed41e96d6cef2e, type: 3}
+      propertyPath: nextLevel
+      value: Antarctica
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833151370377028305, guid: b6024a133f0b299449ed41e96d6cef2e, type: 3}
       propertyPath: checkpoint
       value: 
       objectReference: {fileID: 1679334157}
@@ -1401,6 +1405,10 @@ PrefabInstance:
       propertyPath: segmentPrefab
       value: 
       objectReference: {fileID: 2570397681752781675, guid: 19e1cfc8847a5a846a1315c33851e099, type: 3}
+    - target: {fileID: 5833151370377028305, guid: b6024a133f0b299449ed41e96d6cef2e, type: 3}
+      propertyPath: sizeToComplete
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6258757100724586694, guid: b6024a133f0b299449ed41e96d6cef2e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5
