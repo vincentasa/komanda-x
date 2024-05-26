@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Gun : MonoBehaviour
 {
+    private AudioSource source;
+    public AudioClip shoot;
     private Camera mainCam;
     private Vector3 mousePos;
     public GameObject bullet;
@@ -13,6 +15,7 @@ public class Gun : MonoBehaviour
     public float fireRate;
     private void Start()
     {
+        source = gameObject.GetComponent<AudioSource>();
         mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
     }
 
@@ -39,6 +42,7 @@ public class Gun : MonoBehaviour
         if (Input.GetMouseButton(0) && canFire)
         {
             canFire = false;
+            source.PlayOneShot(shoot);
             Instantiate(bullet, gunTransform.position, gunTransform.rotation);
         }
     }

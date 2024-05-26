@@ -2,10 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class Snake : MonoBehaviour
 {
     public Transform tailSegment;
+    public string nextLevel;
+    public int sizeToComplete;
+    private AudioSource source;
+    public AudioClip goodEat;
+    public AudioClip badEat;
     public Transform segmentPrefab;
     public Vector2Int direction = Vector2Int.right;
     public float speed = 20f;
@@ -21,10 +27,17 @@ public class Snake : MonoBehaviour
     private void Start()
     {
         ResetState();
+        source = gameObject.GetComponent<AudioSource>();
     }
 
     private void Update()
     {
+        //Check when level is complete
+        if (sizeToComplete == segments.Count - 1)
+        {
+            SceneManager.LoadScene(nextLevel);
+        }
+
 
         // Only allow turning up or down while moving in the x-axis
         if (direction.x != 0f)
@@ -81,31 +94,11 @@ public class Snake : MonoBehaviour
 
         for (int i = segments.Count - 1; i > 0; i--)
         {
-            var rot1 = segments[i].GetComponent<Transform>().rotation;
-            var rot2 = segments[i - 1].GetComponent<Transform>().rotation;
-
-            if (rot1 != rot2)
-            {
-                segments[i].GetComponent<SegmentLooks>().Turn();
-                if (transform.position.x < segments[1].position.x && direction == Vector2.up)
-                {
-                    print("-90");
-                }
-                else if (transform.position.x > segments[1].position.x && direction == Vector2.down)
-                {
-                    print("-90");
-                }
-                else if (transform.position.y > segments[1].position.y && direction == Vector2.left)
-                {
-                    print("-90");
-
-                }
-                else if (transform.position.y < segments[1].position.y && direction == Vector2.right)
-                {
-                    print("-90");
-                }
-            }
-            else if ((segments.Count - 1) - i == 0)
+            //if (rot1 != rot2)
+            //{
+            //    segments[i].GetComponent<SegmentLooks>().Turn();
+            //}
+            if ((segments.Count - 1) - i == 0)
             {
                 segments[i].GetComponent<SegmentLooks>().Tail();
             }
@@ -196,6 +189,7 @@ public class Snake : MonoBehaviour
         if (other.gameObject.CompareTag("Food"))
         {
             Grow();
+            source.PlayOneShot(goodEat);
             Destroy(other.gameObject);
         }
         else if (other.gameObject.CompareTag("Obstacle"))
@@ -204,7 +198,9 @@ public class Snake : MonoBehaviour
         }
         else if (other.gameObject.CompareTag("Spike"))
         {
+            source.PlayOneShot(badEat);
             ResetState();
+            Destroy(other.gameObject);
         }
     }
 }

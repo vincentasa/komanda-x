@@ -7,16 +7,22 @@ public class Health : MonoBehaviour
     public GameObject Destroyparticles;
     public int hp;
 
-    public AudioSource destroy;
-    public AudioSource hit;
+    private AudioSource source;
 
+    public AudioClip destroy;
+    public AudioClip hit;
+
+    private void Start()
+    {
+        source = gameObject.GetComponent<AudioSource>();
+    }
     public void Damage()
     {
-        hit.Play();
+        source.PlayOneShot(hit);
         if (hp <= 0)
         {
+            source.PlayOneShot(destroy);
             Die();
-            destroy.Play();
         }
     }
 
