@@ -77,7 +77,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -90,7 +89,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -123,8 +121,8 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: SnakeTail_Frame_0
     originalName: 
-    pivot: {x: 0.44444445, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -143,8 +141,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 50}
   - name: SnakeTail_Frame_1
     originalName: 
-    pivot: {x: 0.44444445, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -163,8 +161,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 74}
   - name: SnakeTail_Frame_2
     originalName: 
-    pivot: {x: 0.4, y: -0.06666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -183,8 +181,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: SnakeTail_Frame_3
     originalName: 
-    pivot: {x: 0.44444445, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -203,8 +201,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 98}
   - name: SnakeTail_Frame_4
     originalName: 
-    pivot: {x: 0.44444445, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -223,8 +221,8 @@ ScriptedImporter:
     uvTransform: {x: 22, y: 4}
   - name: SnakeTail_Frame_5
     originalName: 
-    pivot: {x: 0.44444445, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -243,8 +241,8 @@ ScriptedImporter:
     uvTransform: {x: 22, y: 28}
   - name: SnakeTail_Frame_6
     originalName: 
-    pivot: {x: 0.5, y: -0.06666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -263,8 +261,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 27}
   - name: SnakeTail_Frame_7
     originalName: 
-    pivot: {x: 0.44444445, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -292,7 +290,6 @@ ScriptedImporter:
     cells:
     - name: SnakeTail_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -301,7 +298,6 @@ ScriptedImporter:
       spriteId: 0857ef36be45b804285f5f8e7fde422a
     - name: SnakeTail_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -310,7 +306,6 @@ ScriptedImporter:
       spriteId: 531df25367c979643b380c0048035bf3
     - name: SnakeTail_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 1
@@ -319,7 +314,6 @@ ScriptedImporter:
       spriteId: fe7b2a108e943f443a979c18ed254411
     - name: SnakeTail_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -328,7 +322,6 @@ ScriptedImporter:
       spriteId: 5562151710ce1bf43805b14a53a7ef5c
     - name: SnakeTail_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -337,7 +330,6 @@ ScriptedImporter:
       spriteId: 2c07553a2f9669040b564e63fdb67b58
     - name: SnakeTail_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -346,7 +338,6 @@ ScriptedImporter:
       spriteId: a42aa8b9bbaa2334a97e68f692fe71ae
     - name: SnakeTail_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 1
@@ -355,7 +346,6 @@ ScriptedImporter:
       spriteId: 9c8c4c7df601b444d95715902aedcf29
     - name: SnakeTail_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -413,7 +403,6 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
-  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 16, y: 16}

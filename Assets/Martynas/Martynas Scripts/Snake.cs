@@ -81,10 +81,29 @@ public class Snake : MonoBehaviour
 
         for (int i = segments.Count - 1; i > 0; i--)
         {
-            if (segments[i].GetComponent<Transform>().rotation != segments[i - 1].GetComponent<Transform>().rotation)
+            var rot1 = segments[i].GetComponent<Transform>().rotation;
+            var rot2 = segments[i - 1].GetComponent<Transform>().rotation;
+
+            if (rot1 != rot2)
             {
                 segments[i].GetComponent<SegmentLooks>().Turn();
-                print("Turning...");
+                if (transform.position.x < segments[1].position.x && direction == Vector2.up)
+                {
+                    print("-90");
+                }
+                else if (transform.position.x > segments[1].position.x && direction == Vector2.down)
+                {
+                    print("-90");
+                }
+                else if (transform.position.y > segments[1].position.y && direction == Vector2.left)
+                {
+                    print("-90");
+
+                }
+                else if (transform.position.y < segments[1].position.y && direction == Vector2.right)
+                {
+                    print("-90");
+                }
             }
             else if ((segments.Count - 1) - i == 0)
             {
@@ -95,10 +114,8 @@ public class Snake : MonoBehaviour
                 segments[i].GetComponent<SegmentLooks>().Body();
             }
         }
-
-        //segments[segments.Count - 1].GetComponent<SegmentLooks>().Tail();
+        segments[segments.Count - 1].GetComponent<SegmentLooks>().Tail();
     }
-
     private void FixedUpdate()
     {
         // Wait until the next update before proceeding
@@ -182,6 +199,10 @@ public class Snake : MonoBehaviour
             Destroy(other.gameObject);
         }
         else if (other.gameObject.CompareTag("Obstacle"))
+        {
+            ResetState();
+        }
+        else if (other.gameObject.CompareTag("Spike"))
         {
             ResetState();
         }
