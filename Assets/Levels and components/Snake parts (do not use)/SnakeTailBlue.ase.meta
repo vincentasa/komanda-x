@@ -77,7 +77,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -90,7 +89,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -292,7 +290,6 @@ ScriptedImporter:
     cells:
     - name: SnakeTailBlue_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -301,7 +298,6 @@ ScriptedImporter:
       spriteId: 562d89d150ea5b845bd0b1efdec42173
     - name: SnakeTailBlue_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -310,7 +306,6 @@ ScriptedImporter:
       spriteId: 0989331459ae2a04ea62046262632f79
     - name: SnakeTailBlue_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 1
@@ -319,7 +314,6 @@ ScriptedImporter:
       spriteId: d9a4067cc21c4634991f1b996ea638dd
     - name: SnakeTailBlue_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -328,7 +322,6 @@ ScriptedImporter:
       spriteId: 4b041fe8b4be88b449355421a27c02e8
     - name: SnakeTailBlue_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -337,7 +330,6 @@ ScriptedImporter:
       spriteId: e7837d5cf0817764b98c885bec233ff7
     - name: SnakeTailBlue_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -346,7 +338,6 @@ ScriptedImporter:
       spriteId: 3f4d8facc802d1f478526b98d3058606
     - name: SnakeTailBlue_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 1
@@ -355,7 +346,6 @@ ScriptedImporter:
       spriteId: 6ec94df8696f6f64095848bcb00080e4
     - name: SnakeTailBlue_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -413,7 +403,6 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
-  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 16, y: 16}

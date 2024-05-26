@@ -44,7 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 165f2475fe60a484095f43b66c10dd0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridArea: {fileID: 0}
+  gridArea: {fileID: 7447860846959551535, guid: 36297f93395f5414ebba580af852d4fa, type: 3}
+  spawnSound: {fileID: 8300000, guid: c07a38eeb7b493541a9602479a3128ad, type: 3}
+  spawnParticles: {fileID: 6121649111854796581, guid: 5e1f2f004b1c946449b090316d509273, type: 3}
   originalSpawnRate: 3
   foodPrefabs:
   - {fileID: 6097326493426608212, guid: 9a2e47528b370b14e82c3136b494b1a8, type: 3}
