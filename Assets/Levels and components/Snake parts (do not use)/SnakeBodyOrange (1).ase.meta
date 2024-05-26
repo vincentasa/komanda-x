@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -290,6 +292,7 @@ ScriptedImporter:
     cells:
     - name: SnakeBodyOrange (1)_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -298,6 +301,7 @@ ScriptedImporter:
       spriteId: 359e34a8e3d2f994f98e1720d3dd3787
     - name: SnakeBodyOrange (1)_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -306,6 +310,7 @@ ScriptedImporter:
       spriteId: 109213d4879972747a3e51436894c754
     - name: SnakeBodyOrange (1)_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -314,6 +319,7 @@ ScriptedImporter:
       spriteId: 4c30ab66808509d47b84c6f35452ea66
     - name: SnakeBodyOrange (1)_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -322,6 +328,7 @@ ScriptedImporter:
       spriteId: 5dfc454479cb50f49bcfdfdb1055b4c9
     - name: SnakeBodyOrange (1)_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -330,6 +337,7 @@ ScriptedImporter:
       spriteId: 1d7001007997f994f88d543d6438cd77
     - name: SnakeBodyOrange (1)_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -338,6 +346,7 @@ ScriptedImporter:
       spriteId: 22edb79c5dcd4ff409ef7429a4d577c5
     - name: SnakeBodyOrange (1)_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -346,6 +355,7 @@ ScriptedImporter:
       spriteId: b37ab628b6ae7514ebe7dea30fa88738
     - name: SnakeBodyOrange (1)_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -391,6 +401,7 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 16, y: 16}
