@@ -17,10 +17,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/UI/Scenes/creditsMenu.unity
     guid: 1ed66c23838d9be44a2a0e2fb3be4e4f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Andrius Test.unity
     guid: 0aa482b6cf58e8c4f8a5f0aa5e44ff16
   - enabled: 1
-    path: Assets/UI/Scenes/pauseMenuTest.unity
-    guid: 77a471baa7cb2b641875a7a9fc18a918
+    path: Assets/Levels and components/Levels/Africa.unity
+    guid: bdfd0282371f98441a22a2b7ac17c95d
+  - enabled: 1
+    path: Assets/Levels and components/Levels/Antarctica.unity
+    guid: 7c0f0c87c289cf840a0a5f850e320d9a
+  - enabled: 1
+    path: Assets/Levels and components/Levels/Asia.unity
+    guid: ed6b3dabf5146a84792922f1bad75846
+  - enabled: 1
+    path: Assets/Levels and components/Levels/Australia.unity
+    guid: 665ff6f85bd8c9246803e13517f534a0
+  - enabled: 1
+    path: Assets/Levels and components/Levels/Europe.unity
+    guid: 293b7a25184159a4d8ea6153748ffff6
+  - enabled: 1
+    path: Assets/Levels and components/Levels/North America.unity
+    guid: 3cc7c523b4f43b2419f7a92b5010a822
+  - enabled: 1
+    path: Assets/Levels and components/Levels/South America.unity
+    guid: 0318561d5d996a445b614fb7b55fdef5
   m_configObjects: {}

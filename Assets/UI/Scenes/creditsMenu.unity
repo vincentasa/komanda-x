@@ -559,7 +559,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Andrius - Levels, physics \nMartynas - Programming \nPaulius - Art and
-    Effects \nVincentas - UI, Sounds\n"
+    Effects \nVincentas - UI, Sounds\nIlja - WebGL"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a17a61cd081c95d4ca6cf8a600d7a6ed, type: 2}
   m_sharedMaterial: {fileID: 1862871927429262574, guid: a17a61cd081c95d4ca6cf8a600d7a6ed, type: 2}
@@ -689,8 +689,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.39, y: 0.38}
-  m_SizeDelta: {x: 10.6099, y: 5.3153}
+  m_AnchoredPosition: {x: 0.39, y: 0.0047}
+  m_SizeDelta: {x: 10.6099, y: 6.3029}
   m_Pivot: {x: 0.49, y: 0.62}
 --- !u!1 &664734491
 GameObject:
@@ -1170,8 +1170,8 @@ Transform:
   m_GameObject: {fileID: 2127356907}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.55, y: -0.01, z: 0}
-  m_LocalScale: {x: 11.204563, y: 5.3065567, z: 1}
+  m_LocalPosition: {x: 0.4183, y: -0.6903, z: 0}
+  m_LocalScale: {x: 11.46787, y: 6.6671576, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
