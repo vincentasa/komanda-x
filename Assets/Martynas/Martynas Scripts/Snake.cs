@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
+using UnityEditor.Tilemaps;
 
 public class Snake : MonoBehaviour
 {
@@ -151,6 +152,12 @@ public class Snake : MonoBehaviour
     {
         direction = Vector2Int.right;
         transform.position = checkpoint.transform.position;
+        var badFood = GameObject.FindGameObjectsWithTag("Spike");
+
+        for (int i = 0; i < badFood.Length; i++)
+        {
+            Destroy(badFood[i]);
+        }
 
         // Start at 1 to skip destroying the head
         for (int i = 1; i < segments.Count; i++)
