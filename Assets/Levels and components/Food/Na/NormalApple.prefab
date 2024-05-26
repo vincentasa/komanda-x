@@ -16,6 +16,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Food
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: f0f6a4ae58c0729428b2aab7fc796df0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: f0f6a4ae58c0729428b2aab7fc796df0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.334731

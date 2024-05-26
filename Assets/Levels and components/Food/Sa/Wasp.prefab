@@ -16,6 +16,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Spike
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 28fe483ee2c8a0b44bf35082634305e7, type: 3}
+      propertyPath: m_SortingOrder
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 28fe483ee2c8a0b44bf35082634305e7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.7284708

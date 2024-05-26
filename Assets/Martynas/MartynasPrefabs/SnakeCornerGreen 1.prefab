@@ -13,6 +13,18 @@ PrefabInstance:
       value: SnakeCornerGreen 1
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: b241ec56d4d6e584a878ecd314fffc8b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: b241ec56d4d6e584a878ecd314fffc8b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: b241ec56d4d6e584a878ecd314fffc8b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: b241ec56d4d6e584a878ecd314fffc8b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.4235845
       objectReference: {fileID: 0}
@@ -51,6 +63,10 @@ PrefabInstance:
     - target: {fileID: 7878350319992209165, guid: b241ec56d4d6e584a878ecd314fffc8b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: b241ec56d4d6e584a878ecd314fffc8b, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
