@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3bb51d3d4e141240906c0cfca152858, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Destroyparticles: {fileID: 0}
+  Destroyparticles: {fileID: 4977021961998137063, guid: ad7132f4f2846d64e868ecc73d853bfb, type: 3}
   hp: 1
   destroy: {fileID: 8300000, guid: 286022d3f46eaa14e98eb4676e81a9a6, type: 3}
   hit: {fileID: 8300000, guid: 286022d3f46eaa14e98eb4676e81a9a6, type: 3}
