@@ -151,5 +151,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Destroyparticles: {fileID: 0}
   hp: 2
-  destroy: {fileID: 0}
-  hit: {fileID: 0}
+  destroy: {fileID: 8300000, guid: 286022d3f46eaa14e98eb4676e81a9a6, type: 3}
+  hit: {fileID: 8300000, guid: 286022d3f46eaa14e98eb4676e81a9a6, type: 3}
