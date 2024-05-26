@@ -58,8 +58,8 @@ public class Food : MonoBehaviour
         }
 
         var food = Instantiate(foodPrefabs[index], new Vector2(x, y), Quaternion.identity);
-        source.PlayOneShot(spawnSound);
-        Instantiate(spawnParticles, food.transform.position, Quaternion.identity);
+        //source.PlayOneShot(spawnSound);
+        //Instantiate(spawnParticles, food.transform.position, Quaternion.identity);
     }
     private async void Update()
     {
