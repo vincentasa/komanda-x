@@ -675,7 +675,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 278853255599512825, guid: 7591c0af2e332a347b5d558d7bba71df, type: 3}
       propertyPath: speed
-      value: 12
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 278853255599512825, guid: 7591c0af2e332a347b5d558d7bba71df, type: 3}
       propertyPath: checkpoint

@@ -243,7 +243,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8143035837363259773, guid: 44828f4adba329540ba4863f63eaadd8, type: 3}
       propertyPath: speed
-      value: 10
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8143035837363259773, guid: 44828f4adba329540ba4863f63eaadd8, type: 3}
       propertyPath: checkpoint
