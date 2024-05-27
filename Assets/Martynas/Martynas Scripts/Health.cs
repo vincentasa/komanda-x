@@ -16,7 +16,7 @@ public class Health : MonoBehaviour
     {
         source = gameObject.GetComponent<AudioSource>();
     }
-    public void Damage()
+    private void Update()
     {
         source.PlayOneShot(hit);
         if (hp <= 0)
