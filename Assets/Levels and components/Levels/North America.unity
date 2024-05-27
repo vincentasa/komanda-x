@@ -387,7 +387,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2783629289214859800, guid: c7a9d59c54cf4274399688c4ef86b855, type: 3}
       propertyPath: foodPrefabs.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2783629289214859800, guid: c7a9d59c54cf4274399688c4ef86b855, type: 3}
       propertyPath: foodPrefabs.Array.data[0]
@@ -397,6 +397,10 @@ PrefabInstance:
       propertyPath: foodPrefabs.Array.data[1]
       value: 
       objectReference: {fileID: 3780144102977904473, guid: 8d823f0b791f55c45a0b605e16e7c167, type: 3}
+    - target: {fileID: 2783629289214859800, guid: c7a9d59c54cf4274399688c4ef86b855, type: 3}
+      propertyPath: foodPrefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 1381175521743910696, guid: 7f0171ef6fb32ba40af78e76677634be, type: 3}
     - target: {fileID: 2827116482654221505, guid: c7a9d59c54cf4274399688c4ef86b855, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.05992803
