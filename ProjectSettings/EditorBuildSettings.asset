@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/UI/Scenes/creditsMenu.unity
     guid: 1ed66c23838d9be44a2a0e2fb3be4e4f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Andrius Test.unity
     guid: 0aa482b6cf58e8c4f8a5f0aa5e44ff16
   - enabled: 1
