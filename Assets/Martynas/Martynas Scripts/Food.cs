@@ -8,7 +8,7 @@ public class Food : MonoBehaviour
     public Collider2D gridArea;
 
     private Snake snake;
-    private AudioSource source;
+    AudioSource source;
     public AudioClip spawnSound;
 
     public GameObject spawnParticles;
@@ -22,6 +22,7 @@ public class Food : MonoBehaviour
     {
         snake = FindObjectOfType<Snake>();
         source = gameObject.GetComponent<AudioSource>();
+        Debug.Log(source);
     }
 
     private void Start()
@@ -58,7 +59,7 @@ public class Food : MonoBehaviour
         }
 
         var food = Instantiate(foodPrefabs[index], new Vector2(x, y), Quaternion.identity);
-        //source.PlayOneShot(spawnSound);
+        source.PlayOneShot(spawnSound);
         Instantiate(spawnParticles, food.transform.position, Quaternion.identity);
     }
     private async void Update()
