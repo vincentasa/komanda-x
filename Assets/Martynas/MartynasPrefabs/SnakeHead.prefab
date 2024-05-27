@@ -171,11 +171,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6c63d4862df6b444b57cbe74be20cee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tailSegment: {fileID: 0}
-  segmentPrefab: {fileID: 0}
+  tailSegment: {fileID: 2902195617573013799, guid: 327d7a8d0867dc746bccbc94e8b178b6, type: 3}
+  nextLevel: 
+  sizeToComplete: 0
+  goodEat: {fileID: 8300000, guid: 6ed1e3fde14869b43bfaf068fe1ceed8, type: 3}
+  badEat: {fileID: 8300000, guid: 359c87cbbaefe90409c75afba464b0b0, type: 3}
+  segmentPrefab: {fileID: 3307296013389346913, guid: 2631bd4c192293e4aab824f2189d3e76, type: 3}
   direction: {x: 1, y: 0}
-  speed: 20
+  speed: 5
   initialSize: 4
   speedMultiplier: 1
-  checkpoint: {fileID: 0}
+  checkpoint: {fileID: 4200237655942727582, guid: 3eef1a6d62a71d34bb44716b72ddf8ea, type: 3}
   snakeSize: 0.4

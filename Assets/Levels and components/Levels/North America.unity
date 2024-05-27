@@ -383,7 +383,7 @@ PrefabInstance:
       objectReference: {fileID: 1582257278}
     - target: {fileID: 2783629289214859800, guid: c7a9d59c54cf4274399688c4ef86b855, type: 3}
       propertyPath: originalSpawnRate
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2783629289214859800, guid: c7a9d59c54cf4274399688c4ef86b855, type: 3}
       propertyPath: foodPrefabs.Array.size
@@ -452,7 +452,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -1257899394398564158, guid: 7030f64fde3ab4f44a05eedc775333da, type: 3}
       propertyPath: speed
-      value: 11
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -1257899394398564158, guid: 7030f64fde3ab4f44a05eedc775333da, type: 3}
+      propertyPath: nextLevel
+      value: South America
       objectReference: {fileID: 0}
     - target: {fileID: -1257899394398564158, guid: 7030f64fde3ab4f44a05eedc775333da, type: 3}
       propertyPath: checkpoint
@@ -466,6 +470,10 @@ PrefabInstance:
       propertyPath: segmentPrefab
       value: 
       objectReference: {fileID: 3307296013389346913, guid: 2631bd4c192293e4aab824f2189d3e76, type: 3}
+    - target: {fileID: -1257899394398564158, guid: 7030f64fde3ab4f44a05eedc775333da, type: 3}
+      propertyPath: sizeToComplete
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 783711921338952626, guid: 7030f64fde3ab4f44a05eedc775333da, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.7
@@ -827,7 +835,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 08cdbcc51852b52469af185f1473ceb2, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.079
   m_Pitch: 1
   Loop: 1
   Mute: 0
