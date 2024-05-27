@@ -77,7 +77,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -90,7 +89,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -292,7 +290,6 @@ ScriptedImporter:
     cells:
     - name: SnakeBodyYellow_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -301,7 +298,6 @@ ScriptedImporter:
       spriteId: 4d63ade1c7bd0fb429bcd1e950099168
     - name: SnakeBodyYellow_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -310,7 +306,6 @@ ScriptedImporter:
       spriteId: 7f5b624fb8202aa4b9b1656d9319bb13
     - name: SnakeBodyYellow_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -319,7 +314,6 @@ ScriptedImporter:
       spriteId: 6f498d8d6b61d88498bf9bab10ac41fc
     - name: SnakeBodyYellow_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -328,7 +322,6 @@ ScriptedImporter:
       spriteId: de5c42d0d0dc43d4eb4a23fe3afe82d4
     - name: SnakeBodyYellow_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -337,7 +330,6 @@ ScriptedImporter:
       spriteId: b42eec5ea426e0347980cbddbf96c332
     - name: SnakeBodyYellow_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -346,7 +338,6 @@ ScriptedImporter:
       spriteId: 78f39e89b8776fa4f83997682473b660
     - name: SnakeBodyYellow_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -355,7 +346,6 @@ ScriptedImporter:
       spriteId: e18249a3cb45fae47b57e8612c0e4a12
     - name: SnakeBodyYellow_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -413,7 +403,6 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
-  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 16, y: 16}
