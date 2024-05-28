@@ -1669,7 +1669,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2783629289214859800, guid: c7a9d59c54cf4274399688c4ef86b855, type: 3}
       propertyPath: foodPrefabs.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2783629289214859800, guid: c7a9d59c54cf4274399688c4ef86b855, type: 3}
       propertyPath: foodPrefabs.Array.data[0]
