@@ -45,12 +45,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 165f2475fe60a484095f43b66c10dd0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridArea: {fileID: 7447860846959551535, guid: 36297f93395f5414ebba580af852d4fa, type: 3}
+  gridArea: {fileID: 0}
   spawnSound: {fileID: 8300000, guid: b70f2aae238bc4a4e851e8f41bafc55d, type: 3}
   spawnParticles: {fileID: 6121649111854796581, guid: 5e1f2f004b1c946449b090316d509273, type: 3}
-  originalSpawnRate: 3
+  originalSpawnRate: 6
   foodPrefabs:
-  - {fileID: 6097326493426608212, guid: 9a2e47528b370b14e82c3136b494b1a8, type: 3}
+  - {fileID: 6852996710512916998, guid: 639be941b9af3144a9e55449289bbb43, type: 3}
+  - {fileID: 2806433588198269537, guid: 4c2a501abcd3ec04eb1144ea34e417a0, type: 3}
 --- !u!82 &4124206267487007610
 AudioSource:
   m_ObjectHideFlags: 0
@@ -63,7 +64,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.7
   m_Pitch: 1
   Loop: 0
   Mute: 0
